@@ -1,0 +1,15 @@
+<?php
+echo "<h2 align='center'>
+Todo o texto entre aspas será exibido, inclusive o código HTML
+</h2>";
+
+print('Teste de print');
+echo '<br>';
+echo '<br>';
+$vetor = array('Corolla', 'X1'. 'Audi A3', 'BMW');
+var_dump($vetor);
+echo '<br>';
+echo '<br>';
+$vetor = array('Corolla', 'X1', 'Audi A3', 'BMW');
+print_r($vetor);
+?>
