@@ -1,0 +1,14 @@
+<?php
+$var = "texto";
+echo "Agora o tipo de dado é: ". gettype($var);
+$var = 123.5;
+echo "<br>";
+echo "Agora o tipo de dado é: ". gettype($var);
+
+define("SAUDACAO", "Good morning");
+echo "<br>";
+echo SAUDACAO;
+echo "<br>";
+const SAUDACAO2 = 'Teste!';
+echo SAUDACAO2;
+?>
