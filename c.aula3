@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char* argv[]) {
+    int V[5], i;
+    for (i = 0;i <=4; i++){
+        printf("Digite V[%d] = ", i);
+        scanf("%d", &V[i]);
+    }
+    printf("\n\nOs valores lidos são: \n");
+    for (i=4; i>=0; i--) {
+        printf("%d\t", V[i]);
+    }
+    return 0;
+}
