@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    int x = 10;
+    int *px;
+    px = &x;
+    printf("Valor de x (direto): %d\n", x);
+    printf("Valor de x (via ponteiro): %d\n", x);
+    printf("Endereço de x: %p\n", &x);
+    printf("Endereço guardado em px: %p\n", px);
+    return 0;
+}
