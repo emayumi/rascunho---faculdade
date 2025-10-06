@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    FILE *arquivo = fopen("dados.txt", "w");
+    char linha[100];
+    if(arquivo == NULL) {
+        printf("Erro ao criar arquivo!\n");
+        return 1;
+    }
+    fprintf(arquivo, "Nome: Ellen\nIdade: 22\nCidade: SP\n");
+    fclose(arquivo);
+    return 0;
+    }
